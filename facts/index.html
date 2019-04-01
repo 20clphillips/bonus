@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="main.css">
+    </head>
+
+
+<title>facts</title>
+
+
+<body>
+    <div class="container">
+<h2>quotes</h2>
+<button type="button" id="quoteBtn"></button>
+<blockquote>
+    <h2 id="quote">quote</h2>
+</blockquote>
+<h3 id="wowOdd">wowOdd</h3>
+
+</div>
+<script src="script.js">
+document.getElementById("quoteBtn").addEventListener("click", displayquote);
+function displayquote(){
+    document.getElementById("quote").innerHTML = quote();
+}
+
+</script>
+</body>
+
+</html>

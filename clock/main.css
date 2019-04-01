@@ -1,0 +1,22 @@
+body{
+    background-image: url("Krusty_Krab_230b.png");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#clock{
+    font-family:'Orbitron', sans-serif;
+    font-size:5rem;
+    color:#3294cd;
+}
+
+h2{
+    color:red;
+    position: absolute;
+    bottom:700px;
+    left:500px;
+    font-size: 75px;
+
+}
